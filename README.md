@@ -1,0 +1,1 @@
+*Sample App* for Hartl's RoR Tutorial
