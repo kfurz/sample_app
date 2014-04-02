@@ -6,7 +6,6 @@ gem 'rails', '4.0.4'
 gem 'pg', '0.15.1'
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
   gem 'autotest-rails'
   gem 'autotest-growl'
