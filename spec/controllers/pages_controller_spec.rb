@@ -5,6 +5,7 @@ describe PagesController do
   let(:base_title) { "Ruby on Rails Tutorial Sample App" }
 
 
+
   describe "GET 'home'" do
     it "should be succesful" do
       get 'home'
@@ -22,6 +23,7 @@ describe PagesController do
     end
   end
 
+
   describe "GET 'contact'" do
     it "should be succesful" do
       get 'contact'
@@ -34,6 +36,7 @@ describe PagesController do
     end
   end
 
+
   describe "GET 'about'" do
     it "should be succesful" do
       get 'about'
@@ -45,6 +48,7 @@ describe PagesController do
       expect(page).to have_title("#{base_title} | About")
     end
   end
+
 
   describe "GET 'help'" do
     it "should be succesful" do
